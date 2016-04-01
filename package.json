@@ -5,7 +5,7 @@
   "scripts": {
     "start": "react-native start",
     "test": "mocha --require react-native-mock/mock.js --compilers js:babel-core/register --recursive tests",
-    "mocha:watch": "mocha --require react-native-mock/mock.js --compilers js:babel-core/register --watch --recursive tests"
+    "mocha:watch": "./mocha.runner.sh"
   },
   "dependencies": {
     "react": "^0.14.8",
