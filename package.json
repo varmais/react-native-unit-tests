@@ -8,5 +8,10 @@
   "dependencies": {
     "react": "^0.14.8",
     "react-native": "^0.22.2"
+  },
+  "devDependencies": {
+    "babel-core": "^6.7.4",
+    "babel-plugin-rewire": "^1.0.0-rc-2",
+    "babel-preset-react-native": "^1.5.6"
   }
 }
