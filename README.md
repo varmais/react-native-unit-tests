@@ -23,6 +23,7 @@ Application also utilizes babel-plugin-rewire as an example how to rewire module
 - [sinon](http://sinonjs.org/)
 - [chai](http://chaijs.com/)
 - [enzyme](http://airbnb.io/enzyme/)
+- [babel-plugin-rewire](https://www.npmjs.com/package/babel-plugin-rewire)
 
 
 ## License
