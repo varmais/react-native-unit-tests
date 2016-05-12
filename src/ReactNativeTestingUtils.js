@@ -1,5 +1,3 @@
-'use strict';
-
 export const capitalizeWord = (word) => {
   if (!word) {
     return;

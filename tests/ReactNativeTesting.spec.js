@@ -1,5 +1,3 @@
-'use strict';
-
 import './utils';
 import ReactNativeTesting from '../src/ReactNativeTesting';
 import ReactNativeTestingChild from '../src/ReactNativeTestingChild';

@@ -1,5 +1,3 @@
-'use strict';
-
 import './utils';
 import {
   capitalizeWord,

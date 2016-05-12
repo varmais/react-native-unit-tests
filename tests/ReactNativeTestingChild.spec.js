@@ -1,5 +1,3 @@
-'use strict';
-
 import './utils';
 import ReactNativeTestingChild from '../src/ReactNativeTestingChild';
 import { __RewireAPI__ as ReactNativeTestingChildAPI } from '../src/ReactNativeTestingChild';
