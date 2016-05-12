@@ -14,7 +14,7 @@ Application also utilizes babel-plugin-rewire as an example how to rewire module
     $ npm test
     
     Single component on watch mode:
-    $ npm run mocha:watch ReactNativeTestingUtils
+    $ npm run test:watch ReactNativeTestingUtils
     
     
 ## Modules used for testing:
