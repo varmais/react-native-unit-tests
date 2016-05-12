@@ -24,7 +24,7 @@ export default class ReactNativeTesting extends Component {
     const { text } = this.state;
     return (
       <View style={styles.container}>
-        <Image source={require('./react.png')} />
+        <Image style={styles.logo} source={require('./react.png')} />
         <Text style={styles.title}>
           Welcome to React Native testing demo app
         </Text>
@@ -62,6 +62,10 @@ const styles = StyleSheet.create({
     fontSize: 26,
     padding: 20,
     textAlign: 'center'
+  },
+  logo: {
+    width: 50,
+    height: 50
   },
   input: {
     width: (Dimensions.get('window').width - 20),
