@@ -2,7 +2,11 @@
  "presets": [
    "react-native"
  ],
- "plugins": [
-   "rewire"
- ]
+  "env": {
+     "test": {
+         "plugins": [
+            "rewire"
+          ]
+     }
+  }
 }
