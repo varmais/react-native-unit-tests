@@ -4,7 +4,8 @@ import React, {
   Dimensions,
   View,
   Text,
-  TextInput
+  TextInput,
+  Image
 } from 'react-native';
 
 import ReactNativeTestingChild from './ReactNativeTestingChild';
@@ -23,6 +24,7 @@ export default class ReactNativeTesting extends Component {
     const { text } = this.state;
     return (
       <View style={styles.container}>
+        <Image source={require('./react.png')} />
         <Text style={styles.title}>
           Welcome to React Native testing demo app
         </Text>
