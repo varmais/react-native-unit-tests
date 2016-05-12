@@ -2,7 +2,7 @@ export const capitalizeWord = (word) => {
   if (!word) {
     return;
   }
-  const letters = word.split('');
+  const letters = Array.from(word);
   return letters[0].toUpperCase() + letters.splice(1).join('').toLowerCase();
 };
 
