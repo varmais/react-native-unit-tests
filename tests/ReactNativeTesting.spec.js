@@ -19,14 +19,14 @@ describe('ReactNativeTesting', function () {
 
   it('renders welcome text', function () {
     const expectedText = 'Welcome to React Native testing demo app';
-    const text = component.find(Text).children().node;
+    const text = component.find(Text).children().text();
     expect(text).to.eql(expectedText);
   });
 
   it('renders input field with placeholder', function () {
     const expectedPlaceholder = 'write something';
     expect(textInput.nodes).to.have.length(1);
-    expect(textInput.node.props.placeholder).to.eql(expectedPlaceholder);
+    expect(textInput.props().placeholder).to.eql(expectedPlaceholder);
   });
 
   describe('when text changes', function () {
@@ -41,13 +41,13 @@ describe('ReactNativeTesting', function () {
 
     it('passes text from state to ReactNativeTestingChild', function () {
       const childComponent = component.find(ReactNativeTestingChild);
-      expect(childComponent.node.props.text).to.eql(newTextValue)
+      expect(childComponent.props().text).to.eql(newTextValue)
     });
 
     describe('when clearText callback is called', function () {
       beforeEach(function () {
         const childComponent = component.find(ReactNativeTestingChild);
-        childComponent.node.props.onClear();
+        childComponent.simulate('clear');
       });
 
       it('resets state', function () {
