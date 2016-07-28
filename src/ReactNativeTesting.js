@@ -7,6 +7,7 @@ import React, {
   TextInput,
   Image
 } from 'react-native';
+import Share from 'react-native-share';
 
 import ReactNativeTestingChild from './ReactNativeTestingChild';
 
