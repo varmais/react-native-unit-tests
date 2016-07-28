@@ -1,7 +1,6 @@
 import './testutils';
 import ReactNativeTesting from './ReactNativeTesting';
 import ReactNativeTestingChild from './ReactNativeTestingChild';
-import { Text, TextInput } from 'react-native';
 
 describe('ReactNativeTesting', function () {
   let component;
@@ -10,7 +9,7 @@ describe('ReactNativeTesting', function () {
 
   beforeEach(function () {
     component = shallow(<ReactNativeTesting />);
-    textInput = component.find(TextInput);
+    textInput = component.find('TextInput');
   });
 
   it('has default state', function () {
@@ -19,13 +18,13 @@ describe('ReactNativeTesting', function () {
 
   it('renders welcome text', function () {
     const expectedText = 'Welcome to React Native testing demo app';
-    const text = component.find(Text).children().text();
+    const text = component.find('Text').children().text();
     expect(text).to.eql(expectedText);
   });
 
   it('renders input field with placeholder', function () {
     const expectedPlaceholder = 'write something';
-    expect(textInput.nodes).to.have.length(1);
+    expect(textInput).to.have.length(1);
     expect(textInput.props().placeholder).to.eql(expectedPlaceholder);
   });
 
