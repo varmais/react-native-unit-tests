@@ -1,6 +1,6 @@
-import './utils';
-import ReactNativeTesting from '../src/ReactNativeTesting';
-import ReactNativeTestingChild from '../src/ReactNativeTestingChild';
+import './testutils';
+import ReactNativeTesting from './ReactNativeTesting';
+import ReactNativeTestingChild from './ReactNativeTestingChild';
 import { Text, TextInput } from 'react-native';
 
 describe('ReactNativeTesting', function () {

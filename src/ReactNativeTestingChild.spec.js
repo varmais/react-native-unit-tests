@@ -1,6 +1,6 @@
-import './utils';
-import ReactNativeTestingChild from '../src/ReactNativeTestingChild';
-import { __RewireAPI__ as ReactNativeTestingChildAPI } from '../src/ReactNativeTestingChild';
+import './testutils';
+import ReactNativeTestingChild from './ReactNativeTestingChild';
+import { __RewireAPI__ as ReactNativeTestingChildAPI } from './ReactNativeTestingChild';
 import { Text, TouchableHighlight } from 'react-native';
 
 describe('ReactNativeTestingChild', function () {
@@ -11,7 +11,7 @@ describe('ReactNativeTestingChild', function () {
 
   beforeEach(function () {
     onClearStub = sinon.stub();
-    capitalizeWordsStub = sinon.stub().returns(capitalizedString)
+    capitalizeWordsStub = sinon.stub().returns(capitalizedString);
     ReactNativeTestingChild.__Rewire__('capitalizeWords', capitalizeWordsStub);
   });
 

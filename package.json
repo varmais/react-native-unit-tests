@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "start": "react-native start",
-    "test": "BABEL_ENV=test mocha --require react-native-mock/mock.js --compilers png:mocha-image-compiler,js:babel-core/register --recursive tests",
+    "test": "BABEL_ENV=test mocha --require react-native-mock/mock.js --compilers png:mocha-image-compiler,js:babel-core/register --recursive src",
     "test:watch": "./mocha.runner.sh"
   },
   "dependencies": {

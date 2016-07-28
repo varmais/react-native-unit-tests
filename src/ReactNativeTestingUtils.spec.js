@@ -1,8 +1,8 @@
-import './utils';
+import './testutils';
 import {
   capitalizeWord,
   capitalizeWords
-} from '../src/ReactNativeTestingUtils';
+} from './ReactNativeTestingUtils';
 
 
 describe('ReactNativeTestingUtils', function () {
