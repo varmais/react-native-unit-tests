@@ -4,10 +4,10 @@
    "es2015"
  ],
   "env": {
-     "test": {
-         "plugins": [
-            "rewire"
-          ]
-     }
+    "test": {
+      "plugins": [
+        "rewire"
+      ]
+    }
   }
 }

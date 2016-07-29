@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "start": "react-native start",
-    "test": "BABEL_ENV=test mocha --require mocha-setup.js --require react-native-mock/mock.js --compilers png:mocha-image-compiler,js:babel-core/register --recursive src",
+    "test": "BABEL_ENV=test mocha --require mocha-setup.js --compilers js:babel-core/register --recursive src",
     "test:watch": "./mocha.runner.sh"
   },
   "dependencies": {
@@ -20,7 +20,6 @@
     "chai": "3.5.0",
     "enzyme": "2.4.1",
     "mocha": "2.5.3",
-    "mocha-image-compiler": "^1.0.0",
     "react-addons-test-utils": "15.2.1",
     "react-dom": "15.2.1",
     "react-native-mock": "0.2.5",
