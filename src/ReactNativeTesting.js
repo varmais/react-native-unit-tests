@@ -1,5 +1,5 @@
-import React, {
-  Component,
+import React, { Component } from 'react';
+import {
   StyleSheet,
   Dimensions,
   View,
@@ -8,7 +8,6 @@ import React, {
   Image
 } from 'react-native';
 import Share from 'react-native-share';
-
 import ReactNativeTestingChild from './ReactNativeTestingChild';
 
 export default class ReactNativeTesting extends Component {

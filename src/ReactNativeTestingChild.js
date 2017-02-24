@@ -1,6 +1,8 @@
 import React, {
   Component,
-  PropTypes,
+  PropTypes
+} from 'react';
+import {
   StyleSheet,
   View,
   Text,
