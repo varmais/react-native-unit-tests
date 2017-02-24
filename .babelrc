@@ -3,7 +3,7 @@
     "react-native"
   ],
   "env": {
-    "test": {
+    "mocha": {
       "plugins": [
         "rewire"
       ]

@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "start": "react-native start",
-    "mocha": "BABEL_ENV=test mocha --require mocha-setup.js --compilers js:babel-core/register --recursive __tests__/mocha",
+    "mocha": "BABEL_ENV=mocha mocha --require mocha-setup.js --compilers js:babel-core/register --recursive __tests__/mocha",
     "mocha:watch": "./mocha.runner.sh",
     "jest": "jest"
   },
@@ -32,6 +32,6 @@
   },
   "jest": {
     "preset": "react-native",
-    "testMatch": ["./__tests__/jest/*.js"]
+    "testMatch": ["**/__tests__/jest/*.js?(x)"]
   }
 }
