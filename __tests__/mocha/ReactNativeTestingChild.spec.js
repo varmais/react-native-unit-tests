@@ -1,6 +1,7 @@
-import './testutils/mocha';
-import ReactNativeTestingChild from './ReactNativeTestingChild';
-import { __RewireAPI__ as ReactNativeTestingChildAPI } from './ReactNativeTestingChild';
+import '../testutils/mocha';
+import ReactNativeTestingChild, {
+  __RewireAPI__ as ReactNativeTestingChildAPI
+} from '../../src/ReactNativeTestingChild';
 
 describe('ReactNativeTestingChild', function () {
   let component;

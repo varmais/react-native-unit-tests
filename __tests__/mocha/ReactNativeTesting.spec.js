@@ -1,6 +1,6 @@
-import './testutils/mocha';
-import ReactNativeTesting from './ReactNativeTesting';
-import ReactNativeTestingChild from './ReactNativeTestingChild';
+import '../testutils/mocha';
+import ReactNativeTesting from '../../src/ReactNativeTesting';
+import ReactNativeTestingChild from '../../src/ReactNativeTestingChild';
 
 describe('ReactNativeTesting', function () {
   let component;

@@ -1,9 +1,8 @@
-import './testutils/mocha';
+import '../testutils/mocha';
 import {
   capitalizeWord,
   capitalizeWords
-} from './ReactNativeTestingUtils';
-
+} from '../../src/ReactNativeTestingUtils';
 
 describe('ReactNativeTestingUtils', function () {
   describe('capitalizeWord', function () {

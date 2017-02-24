@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "start": "react-native start",
-    "mocha": "BABEL_ENV=test mocha --require mocha-setup.js --compilers js:babel-core/register --recursive src",
+    "mocha": "BABEL_ENV=test mocha --require mocha-setup.js --compilers js:babel-core/register --recursive __tests__/mocha",
     "mocha:watch": "./mocha.runner.sh",
     "jest": "jest"
   },
@@ -31,6 +31,7 @@
     "sinon-chai": "2.8.0"
   },
   "jest": {
-    "preset": "react-native"
+    "preset": "react-native",
+    "testMatch": ["./__tests__/jest/*.js"]
   }
 }
