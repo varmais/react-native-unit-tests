@@ -8,15 +8,23 @@ Application also utilizes babel-plugin-rewire as an example how to rewire module
 
 I've written about unit testing React Native components in more depth in [Valuemotive](http://valuemotive.com/) blog: [Unit Testing React Native Components with Mocha and Enzyme](http://valuemotive.com/2016/08/01/unit-testing-react-native-components-with-mocha-and-enzyme/).
 
+EDIT: Added Jest tests.
+
 ## Installation and usage
 
     $ npm install
     
-    All tests:
-    $ npm test
+    All mocha tests:
+    $ npm run mocha
     
-    Single component on watch mode:
-    $ npm run test:watch ReactNativeTestingUtils
+    Single component on mocha watch mode:
+    $ npm run mocha:watch ReactNativeTestingUtils
+    
+    All jest tests:
+    $ npm run jest
+    
+    Jest watch mode:
+    $ npm run jest -- --watch
     
     
 ## Modules used for testing:
@@ -26,13 +34,14 @@ I've written about unit testing React Native components in more depth in [Valuem
 - [chai](http://chaijs.com/)
 - [enzyme](http://airbnb.io/enzyme/)
 - [babel-plugin-rewire](https://www.npmjs.com/package/babel-plugin-rewire)
+- [jest](https://facebook.github.io/jest/)
 
 
 ## License
 
 MIT License
 
-Copyright (c) 2016 [VarmaIS](https://varmais.fi)
+Copyright (c) 2017 [VarmaIS](https://varmais.fi)
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
