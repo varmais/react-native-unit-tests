@@ -1,4 +1,4 @@
-import './testutils';
+import './testutils/mocha';
 import ReactNativeTesting from './ReactNativeTesting';
 import ReactNativeTestingChild from './ReactNativeTestingChild';
 

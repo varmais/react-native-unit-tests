@@ -1,4 +1,4 @@
-import './testutils';
+import './testutils/mocha';
 import {
   capitalizeWord,
   capitalizeWords

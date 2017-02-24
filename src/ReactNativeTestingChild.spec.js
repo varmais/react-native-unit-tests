@@ -1,4 +1,4 @@
-import './testutils';
+import './testutils/mocha';
 import ReactNativeTestingChild from './ReactNativeTestingChild';
 import { __RewireAPI__ as ReactNativeTestingChildAPI } from './ReactNativeTestingChild';
 
