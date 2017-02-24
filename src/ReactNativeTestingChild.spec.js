@@ -11,7 +11,7 @@ describe('ReactNativeTestingChild', function () {
   beforeEach(function () {
     onClearStub = sinon.stub();
     capitalizeWordsStub = sinon.stub().returns(capitalizedString);
-    ReactNativeTestingChild.__Rewire__('capitalizeWords', capitalizeWordsStub);
+    ReactNativeTestingChildAPI.__Rewire__('capitalizeWords', capitalizeWordsStub);
   });
 
   describe('when props.text is empty', function () {
