@@ -6,7 +6,7 @@ Application tested only on iOS but should run on Android as well. Main purpose o
 
 Application also utilizes babel-plugin-rewire as an example how to rewire modules which are imported using ES6 syntax instead of CommonJS syntax.
 
-I've written about unit testing React Native components in more depth in [Valuemotive](http://valuemotive.com/) blog: [Unit Testing React Native Components with Mocha and Enzyme](http://valuemotive.com/2016/08/01/unit-testing-react-native-components-with-mocha-and-enzyme/).
+I've written about unit testing React Native components in more depth in [Valuemotive](http://valuemotive.com/) blog: [Unit Testing React Native Components with Mocha and Enzyme](https://blog.valuemotive.com/unit-testing-react-native-components-with-mocha-and-enzyme-1d8a669ece29).
 
 EDIT: Added Jest tests.
 
